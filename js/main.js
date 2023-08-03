@@ -288,3 +288,46 @@ var s7 = new Swiper(".s7", {
     },
   },
 });
+
+var swipperCategories = new Swiper(".swipperCategories", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  sliderPerGroup: 1,
+  loop: true,
+  centerSlide: "true",
+  fade: "true",
+  grabCursor: "true",
+  pagination: {
+    el: ".swiper-pagination8",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next8",
+    prevEl: ".swiper-button-prev8",
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+    },
+    520: {
+      slidesPerView: 2,
+    },
+    600: {
+      slidesPerView: 3,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    1000: {
+      slidesPerView: 5,
+    },
+    1200: {
+      slidesPerView: 6,
+    },
+    1400: {
+      slidesPerView: 8,
+    },
+  },
+});
