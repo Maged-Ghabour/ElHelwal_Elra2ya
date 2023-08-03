@@ -25,7 +25,7 @@
 
 <body>
   <!-- Start Header Section  -->
-  <header class="p-4">
+  <header class="py-4">
     <div class="container-fluid d-flex justify-content-between align-items-center flex-shrink-1">
       <div class="logo">
         <img src="./imgs/Logo.png" alt="Logo" />
@@ -768,49 +768,42 @@
 
 
 
-  <!-- Start Discounts Section -->
-  <div class="discount my-5">
-    <div class="container-fluid text-white text-center d-flex justify-content-between align-items-center">
+  
 
-      <div class="col-test mb-4">
-        <div class="content">
-          <span class="fs-3">أقل من </span>
-          <p class="fs-1 fw-bold">199 <span class="fs-4">ر.س</span></p>
 
-        </div>
-      </div>
-      <div class="col-test mb-4">
-        <div class="content">
+
+
+
+  <!-- Start Discount Here -->
+<div class="discount">
+    <div class="container-fluid swiper">  
+      <div class="slide-container s8  text-center text-white mx-3">
+        <div class="swiper-wrapper py-5">  
+          <div class="col-test mb-4 swiper-slide p-3 mb-5 rounded  ">
+            <div class="content">
           <span class="fs-2">أقل من </span>
           <p class="fs-1 fw-bold">199 <span class="fs-4">ر.س</span></p>
         </div>
-      </div>
-      <div class="col-test mb-4">
-        <div class="content">
+          </div>
+          <div class="col-test mb-4 swiper-slide  p-3 mb-5 rounded  ">
+             <div class="content">
           <span class="fs-2">أقل من </span>
           <p class="fs-1 fw-bold">199 <span class="fs-4">ر.س</span></p>
         </div>
-      </div>
-      <div class="col-test mb-4">
-        <div class="content">
-          <span class="fs-2">أقل من </span>
-          <p class="fs-1 fw-bold">199 <span class="fs-4">ر.س</span></p>
+
+          </div>
         </div>
       </div>
-      <div class="col-test mb-4">
-        <div class="content">
-          <span class="fs-2">أقل من </span>
-          <p class="fs-1 fw-bold">199 <span class="fs-4">ر.س</span></p>
-        </div>
-      </div>
+      <!-- Swipper Arrows  -->
+      <div class="swiper-button-next swiper-navBtn swiper-button-next8"></div>
+      <div class="swiper-button-prev swiper-navBtn swiper-button-prev8"></div>
+      <div class="swiper-pagination swiper-pagination8"></div>
     </div>
-
   </div>
 
 
 
-
-  <!-- Start Products with Swiper  -->
+  <!-- End Discount Here -->
 
   <div class="products">
     <div class="container-fluid swiper">
@@ -1297,17 +1290,17 @@
   <!-- End Opinion Section -->
 
   <!-- Start Footer Section -->
-  <footer class="text-white text-center text-lg-start">
+  <footer class="text-white  text-lg-start">
     <!-- Grid container -->
     <div class="container-fluid p-4">
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0 px-5">
+        <div class="logo col-lg-4 col-md-12 mb-4 mb-md-0">
           <img src="./imgs/Logo.png" alt="">
           <h5 class="text-uppercase mt-4">متجر الحلول الراقية</h5>
 
-          <p class="px-2">
+          <p>
             متجر إلكتروني متكامل لجميع خدمات التكييف بأفضل الأسعار والعروض
             الحصرية على المكيفات بالرياض وأيضا توصيل وتركيب جميع أنواع
             المكيفات مجانا وبدون أي تكاليف إضافية
@@ -1315,8 +1308,9 @@
         </div>
         <!--Grid column-->
 
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+      
+          <!--Grid column-->
+        <div class="footer-body col-lg-2 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase mb-3">الفئات الرئيسية</h5>
 
           <ul class="list-unstyled mb-0">
@@ -1345,7 +1339,7 @@
         </div>
         <!--Grid column-->
         <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <div class="footer-body col-lg-2 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase mb-3">عن الحلول الراقية</h5>
 
           <ul class="list-unstyled">
@@ -1370,7 +1364,7 @@
           </ul>
         </div>
         <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <div class="footer-body col-lg-2 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase mb-3">خدمة العملاء</h5>
 
           <ul class="list-unstyled">
@@ -1395,6 +1389,112 @@
           </ul>
         </div>
         <!--Grid column-->
+
+
+        <div class="footer-body-responsie my-3">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item mb-2  ">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        الفئات الرئيسية
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                <a href="#!" class="text-white">تليفزيونات والكترونيات</a>
+                                </li>
+                                <li>
+                                <a href="#!" class="text-white">الأجهزة المنزلية</a>
+                                </li>
+                                <li>
+                                <a href="#!" class="text-white">تكييفات ومنقيات الهواء</a>
+                                </li>
+                                <li>
+                                <a href="#!" class="text-white">منتجات الصحة والعناية الشخصية</a>
+                                </li>
+                                <li>
+                                <a href="#!" class="text-white"> ساعات</a>
+                                </li>
+                                <li>
+                                <a href="#!" class="text-white">قطع غيار استهلاكية </a>
+                                </li>
+                                <li>
+                                <a href="#!" class="text-white"> منتجات حصرية</a>
+                                </li>
+                            </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        عن الحلول الراقية
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>
+                            <a href="#!" class="text-white">من نحن</a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white">المدونة</a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white">فروعنا الرئيسية</a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white">وظائف </a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white">تطبيقاتنا </a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white"> خريطة الموقع</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    خدمة العملاء
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>
+                            <a href="#!" class="text-white"> الشروط والأحكام</a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white"> سياسة الخصوصية</a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white"> سياسة البيع</a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white">سياسة الإستبدال و الإرجاع </a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white"> الدعم والمساعدة</a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white"> اتصل بنا</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+
+
+
         <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase mb-0">هل لديك استفسار؟</h5>
           <p class="my-4">يسعدنا الرد علي استفسارك علي الواتساب.</p>

@@ -395,7 +395,7 @@ header {
   content: url("../imgs/shape2.png");
   position: absolute;
   top: 20%;
-  left: 30%;
+  left: 23%;
 }
 
 /* End Discount Section */
@@ -426,12 +426,67 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
+  text-align: center;
 }
 
 ul li {
   padding: 7px 0;
 }
 /* End Footer Section */
+@media (max-width: 991.98px) {
+  footer{
+    text-align: inherit;
+  }
+  .footer-body{
+    display: none;
+  }
+  footer .logo{
+    text-align: center;
+  }
+
+.accordion{
+  --bs-accordion-border-color : none;
+  --bs-accordion-bg : none;
+}
+
+  .accordion-item{
+    border-radius: 7px !important;
+   
+  }
+ .accordion-button{
+  background-color: #003166;
+  color: #fff;
+  
+ }
+ .accordion-button::after{
+  color: #fff;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+
+ }
+ .accordion-button:not(.collapsed){
+  background-color: #003166;
+  color: var(--secondary_color);
+ }
+
+  
+}
+
+@media (min-width: 991.98px) {
+footer .footer-body-responsie{
+  display: none;
+}
+}
+
+
+/* Start Footer Responsive */
+
+
+
+
+/*End Footer Responsive */ 
+
+
+
 
 /* Anime */
 
