@@ -1,0 +1,36 @@
+/* End Single Product From Here  */
+
+/* Start Tabs From Here */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.tabs__label {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.tabs__radio {
+  display: none;
+}
+
+.tabs__content {
+  order: 1;
+  width: 100%;
+
+  line-height: 1.5;
+  font-size: 0.9em;
+  display: none;
+}
+
+.tabs__radio:checked + .tabs__label {
+  font-weight: bold;
+  color: var(--primary_color);
+  border-bottom: 2px solid var(--primary_color);
+}
+
+.tabs__radio:checked + .tabs__label + .tabs__content {
+  display: initial;
+}

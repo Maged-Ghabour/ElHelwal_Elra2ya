@@ -21,11 +21,14 @@
 
   <!-- Custom CSS File -->
   <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Single Product CSS -->
+  <link rel="stylesheet" href="./css/single-product.css">
 </head>
 
 <body>
   <!-- Start Header Section  -->
-  <header class="p-4">
+  <header class="py-4">
     <div class="container-fluid d-flex justify-content-between align-items-center flex-shrink-1">
       <div class="logo">
         <img src="./imgs/Logo.png" alt="Logo" />
@@ -48,8 +51,29 @@
         </a>
       </ul>
     </div>
+    
+
+    <!-- Header Responsive  -->
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a href="" class="text-white">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </a>
+      <div class="logo">
+        <img src="./imgs/Logo.png" alt="Logo" />
+      </div>
+      <a href="#" class="text-decoration-none text-white d-flex justify-content-between align-items-center">
+          <i class="fa-solid fa-cart-shopping fa-2x mx-2"></i>
+      </a>
+    </div>
+     <div class="search d-flex flex-grow-1 mx-3 mt-3">
+        <input type="text" class="w-100 ps-3 form-control" name="search" placeholder="ابحث في المتجر بالكامل هنا .." />
+    </div>
+
+
   </header>
   <!-- End Header Section  -->
+
+
 
   <!-- Start Nav Section -->
 
@@ -97,7 +121,6 @@
   </div>
 
   <!-- End Nav Section -->
-
 
   <!-- Start Content of Single product here -->
 <div class="single-product my-5">
