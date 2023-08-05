@@ -35,14 +35,20 @@
          <i class="search-icon fa-solid fa-magnifying-glass"></i>
       </div>
       <ul class="links list-group d-flex justify-content-end align-items-center gap-5 flex-row">
-        <a href="#" class="text-decoration-none text-white d-flex justify-content-between align-items-center">
+        <!-- <a href="#" class="text-decoration-none text-white d-flex justify-content-between align-items-center">
           <li>حاسبة التكييف</li>
           <i class="fa-solid fa-calculator fs-4 mx-2"></i>
+        </a> -->
+          <a href="#" class="text-decoration-none text-white d-flex justify-content-between align-items-center">
+          <li>تسجيل دخول جديد</li>
+        <i class="fas fa-sign-in fs-4 mx-2"></i>
         </a>
+
         <a href="#" class="text-decoration-none text-white d-flex justify-content-between align-items-center">
           <li>تسجيل الدخول</li>
           <i class="fa-regular fa-user fs-4 mx-2"></i>
         </a>
+      
         <a href="#" class="cart text-decoration-none text-white d-flex justify-content-between align-items-center">
           <li>سلة التسوق</li>
           <i class="fa-solid fa-cart-shopping fs-4 mx-2"></i>
@@ -56,9 +62,147 @@
 
     <!-- Header Responsive  -->
     <div class="container-fluid d-flex justify-content-between align-items-center">
-      <a href="" class="text-white">
+      <a href="" class="text-white" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
         <i class="fa-solid fa-bars fa-2x"></i>
       </a>
+
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <!-- <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+       <div class="accordion" id="accordionExample">
+                <div class="accordion-item mb-2  ">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        الفئات الرئيسية
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                                 <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                               <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                               <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                                <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                                <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                                 <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                            </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        عن الحلول الراقية
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                              <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                            <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                             <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                             <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                              <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     روابط مهمة لخدمة العملاء
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">       
+                              <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                              <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                            <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                             <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                             <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                             <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                             <li>
+                                <a href="#!" class="text-white">نص يمكن استبداله</a>
+                                </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
       <div class="logo">
         <img src="./imgs/Logo.png" alt="Logo" />
       </div>
@@ -82,43 +226,55 @@
 
   <!-- Start Nav Section -->
 
-  <div class="nav pt-3 container-fluid">
-    <ul class="d-flex justify-content-center align-items-center w-100">
+  <div class="nav container-fluid">
+    <ul class="d-flex justify-content-center align-items-center w-100 m-0">
 
-      <li class="mx-4 dropdown-toggle">
+      <!-- <li class="mx-4 dropdown-toggle">
         <a href="">
           <i class="fa-solid fa-bars"></i>
           <span> جميع الفئات </span>
         </a>
+      </li> -->
+
+      
+        <li>
+          <a href="" class="link dropdown-toggle mx-4 py-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          صفقات وخصومات
+        </a>
+          <ul class="dropdown-menu text-dark">
+              <a class="dropdown-item" href="#">نص يمكن استبداله</a>
+              <a class="dropdown-item" href="#">نص يمكن استبداله </a>
+              <a class="dropdown-item" href="#">  نص يمكن استبداله</a>
+              <a class="dropdown-item" href="#">  نص يمكن استبداله</a>
+              <a class="dropdown-item" href="#">  نص يمكن استبداله</a>
+          </ul>
+     
+        </li>
+
+      <li class="mx-4 py-3 px-2">
+        <a href="" class="link">المكيفات</a>
       </li>
 
-      <li class="mx-4">
-        <a href="">صفقات
-          وخصومات</a>
+      <li class="mx-4 py-3 px-2">
+        <a href="" class="link">ثلاجات</a>
       </li>
 
-      <li class="mx-4">
-        <a href="">المكيفات</a>
+      <li class="mx-4 py-3 px-2">
+        <a href="" class="link">الفريزرات</a>
       </li>
 
-      <li class="mx-4"><a href="">ثلاجات</a></li>
+      <li class="mx-4 py-3 px-2">
 
-      <li class="mx-4">
-        <a href="">الفريزرات</a>
+        <a href="" class="link">الأفران</a>
       </li>
 
-      <li class="mx-4">
-
-        <a href="">الأفران</a>
-      </li>
-
-      <li class="mx-4">
-        <a href="">أجهزة
+      <li class="mx-4 py-3 px-2">
+        <a href="" class="link">أجهزة
           صغيرة</a>
       </li>
 
-      <li class="mx-4">
-        <a href="">الشاشات
+      <li class="mx-4 py-3 px-2">
+        <a href="" class="link">الشاشات
           والصوتيات</a>
       </li>
 
@@ -412,27 +568,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
-
-
-
-          </div>
-          <div class="swiper-slide  shadow-sm p-3 mb-5 bg-body rounded ">
-            <div class="img-content">
-              <img class="img-bottom" src="./imgs/products/Image.png" alt="" />
-              <img class="img-top" src="./imgs/categories/cat1.png" alt="" />
-            </div>
-
-            <h4 class="mt-3 fs-5 fw-bold">
-              وات –1200 لتر 30ميكرويف كولين ديجيتال فضي
-            </h4>
-            <div class="wishlist">
-              <i class="fa-solid fa-heart fs-4" style="color: #f4c3c3"></i>
-            </div>
-            <div class="discount rounded px-2 py-1 text-white">50 %</div>
-            <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
-            <span class="price-after text-decoration-line-through">590 ر.س</span>
-
-
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
           </div>
           <div class="swiper-slide  shadow-sm p-3 mb-5 bg-body rounded ">
@@ -450,7 +586,25 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
-            <a class="btn-addToCart d-none" href="">أضف إلي السلة</a>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
+          </div>
+
+          <div class="swiper-slide  shadow-sm p-3 mb-5 bg-body rounded ">
+            <div class="img-content">
+              <img class="img-bottom" src="./imgs/products/Image.png" alt="" />
+              <img class="img-top" src="./imgs/categories/cat1.png" alt="" />
+            </div>
+
+            <h4 class="mt-3 fs-5 fw-bold">
+              وات –1200 لتر 30ميكرويف كولين ديجيتال فضي
+            </h4>
+            <div class="wishlist">
+              <i class="fa-solid fa-heart fs-4" style="color: #f4c3c3"></i>
+            </div>
+            <div class="discount rounded px-2 py-1 text-white">50 %</div>
+            <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
+            <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a class="btn-addToCart" href="">أضف إلي السلة</a>
 
 
 
@@ -470,6 +624,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -489,6 +644,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -531,6 +687,26 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
+
+
+          </div>
+          <div class="swiper-slide  shadow-sm p-3 mb-5 bg-body rounded ">
+            <div class="img-content">
+              <img class="img-bottom" src="./imgs/products/Image.png" alt="" />
+              <img class="img-top" src="./imgs/categories/cat1.png" alt="" />
+            </div>
+
+            <h4 class="mt-3 fs-5 fw-bold">
+              وات –1200 لتر 30ميكرويف كولين ديجيتال فضي
+            </h4>
+            <div class="wishlist">
+              <i class="fa-solid fa-heart fs-4" style="color: #f4c3c3"></i>
+            </div>
+            <div class="discount rounded px-2 py-1 text-white">50 %</div>
+            <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
+            <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -550,25 +726,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
-
-
-
-          </div>
-          <div class="swiper-slide  shadow-sm p-3 mb-5 bg-body rounded ">
-            <div class="img-content">
-              <img class="img-bottom" src="./imgs/products/Image.png" alt="" />
-              <img class="img-top" src="./imgs/categories/cat1.png" alt="" />
-            </div>
-
-            <h4 class="mt-3 fs-5 fw-bold">
-              وات –1200 لتر 30ميكرويف كولين ديجيتال فضي
-            </h4>
-            <div class="wishlist">
-              <i class="fa-solid fa-heart fs-4" style="color: #f4c3c3"></i>
-            </div>
-            <div class="discount rounded px-2 py-1 text-white">50 %</div>
-            <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
-            <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -588,6 +746,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -607,6 +766,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -626,6 +786,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
           </div>
         </div>
@@ -665,6 +826,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -684,6 +846,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -703,6 +866,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -722,6 +886,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -741,6 +906,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -760,6 +926,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
           </div>
         </div>
@@ -788,7 +955,7 @@
       <div class="slide-container s8  text-center text-white mx-3">
         <div class="swiper-wrapper py-5">  
           <div class="col-test mb-4 swiper-slide p-3 mb-5 rounded  ">
-            <div class="content">
+            <div class="content margin-auto">
           <span class="fs-2">أقل من </span>
           <p class="fs-1 fw-bold">199 <span class="fs-4">ر.س</span></p>
         </div>
@@ -836,6 +1003,26 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
+
+
+          </div>
+          <div class="swiper-slide  shadow-sm p-3 mb-5 bg-body rounded ">
+            <div class="img-content">
+              <img class="img-bottom" src="./imgs/products/Image.png" alt="" />
+              <img class="img-top" src="./imgs/categories/cat1.png" alt="" />
+            </div>
+
+            <h4 class="mt-3 fs-5 fw-bold">
+              وات –1200 لتر 30ميكرويف كولين ديجيتال فضي
+            </h4>
+            <div class="wishlist">
+              <i class="fa-solid fa-heart fs-4" style="color: #f4c3c3"></i>
+            </div>
+            <div class="discount rounded px-2 py-1 text-white">50 %</div>
+            <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
+            <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -855,25 +1042,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
-
-
-
-          </div>
-          <div class="swiper-slide  shadow-sm p-3 mb-5 bg-body rounded ">
-            <div class="img-content">
-              <img class="img-bottom" src="./imgs/products/Image.png" alt="" />
-              <img class="img-top" src="./imgs/categories/cat1.png" alt="" />
-            </div>
-
-            <h4 class="mt-3 fs-5 fw-bold">
-              وات –1200 لتر 30ميكرويف كولين ديجيتال فضي
-            </h4>
-            <div class="wishlist">
-              <i class="fa-solid fa-heart fs-4" style="color: #f4c3c3"></i>
-            </div>
-            <div class="discount rounded px-2 py-1 text-white">50 %</div>
-            <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
-            <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -893,6 +1062,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -912,6 +1082,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -931,6 +1102,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
           </div>
         </div>
@@ -971,6 +1143,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -990,6 +1163,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1009,6 +1183,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1028,6 +1203,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1047,6 +1223,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1066,6 +1243,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
           </div>
         </div>
@@ -1108,6 +1286,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1127,6 +1306,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1146,6 +1326,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1165,6 +1346,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1184,6 +1366,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
 
 
@@ -1203,6 +1386,7 @@
             <div class="discount rounded px-2 py-1 text-white">50 %</div>
             <span class="price-before fw-bolder fs-5 px-2">513 ر.س</span>
             <span class="price-after text-decoration-line-through">590 ر.س</span>
+            <a href="#" class="btn-addToCart">اضف إلي السلة</a>
 
           </div>
         </div>
@@ -1235,7 +1419,7 @@
         <h2 class="head position-relative">العلامات التجارية </h2>
         <button class="btn btn-preview">عرض الكل</button>
       </div>
-      <div class="swiper p-5 m-5">
+      <div class="swiper p-3 m-2">
         <div class="slide-container s7 content text-center ">
           <div class="rounded swiper-wrapper card-wrapper ">
             <div class="border rounded swiper-slide shadow-sm  bg-body px-4 py-1   ">
@@ -1370,9 +1554,12 @@
         </div>
         <!--Grid column-->
         <div class="footer-body col-lg-2 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-3">خدمة العملاء</h5>
+          <h5 class="text-uppercase mb-3">روابط  لخدمة العملاء</h5>
 
           <ul class="list-unstyled">
+             <li>
+                            <a href="#!" class="text-white"> حاسبة التكييف</a>
+                            </li>
             <li>
               <a href="#!" class="text-white"> الشروط والأحكام</a>
             </li>
@@ -1466,12 +1653,15 @@
                 <div class="accordion-item mb-2">
                     <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    خدمة العملاء
+                     روابط مهمة لخدمة العملاء
                     </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled">       
+                            <li>
+                            <a href="#!" class="text-white"> حاسبة التكييف</a>
+                            </li>
                             <li>
                             <a href="#!" class="text-white"> الشروط والأحكام</a>
                             </li>
@@ -1530,6 +1720,8 @@
 
   </footer>
   <!-- End Footer Section -->
+
+
 
   <script src="/js/bootstrap.bundle.min.js"></script>
   <script src="./js/swipper.js"></script>

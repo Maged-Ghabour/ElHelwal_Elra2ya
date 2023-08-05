@@ -29,7 +29,7 @@ var s1 = new Swiper(".s1", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     520: {
       slidesPerView: 2,
@@ -40,7 +40,7 @@ var s1 = new Swiper(".s1", {
     1000: {
       slidesPerView: 4,
     },
-    1200: {
+    1100: {
       slidesPerView: 5,
     },
     1200: {
@@ -69,7 +69,7 @@ var s2 = new Swiper(".s2", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     520: {
       slidesPerView: 2,
@@ -109,7 +109,7 @@ var s3 = new Swiper(".s3", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     520: {
       slidesPerView: 2,
@@ -149,7 +149,7 @@ var s4 = new Swiper(".s4", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     520: {
       slidesPerView: 2,
@@ -189,10 +189,10 @@ var s5 = new Swiper(".s5", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     520: {
-      slidesPerView: 2,
+      slidesPerView:2 ,
     },
     768: {
       slidesPerView: 3,

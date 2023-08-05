@@ -10,6 +10,8 @@
   --secondary_color: #ff6601;
   --third_color: #ff980f;
   --website-font: "Cairo", sans-serif;
+  --hover-icons : #4376AC
+
 }
 ul {
   list-style-type: none;
@@ -43,27 +45,28 @@ ul li a {
 .btn-preview:hover {
   border: 1px solid var(--secondary_color);
 }
-.btn-add-to-cart {
-  background-color: var(--primary_color);
-  border-radius: 7px;
-  height: 3rem;
-  color: #fff;
-  width: 100%;
-  border: none;
-  font-size: 1.2rem;
-}
 
 .btn-addToCart {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--primary_color);
-  border-radius: 15px;
-  height: 2.7rem;
+  border-radius: 8px;
+
   color: #fff;
   width: 100%;
   border: none;
   font-size: 1.1rem;
+  margin-top: 5px;
+  height: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.swiper-slide:hover .btn-addToCart{
+   
+  visibility: visible;
+  height: 2.7rem;
 }
 a.btn-addToCart {
   text-decoration: none;
@@ -136,6 +139,27 @@ header {
   align-items: center;
 }
 
+
+/* Start offcanvas Here*/
+
+.offcanvas{
+  background-color: var(--primary_color);
+  color: #fff;
+}
+
+.offcanvas-body ul li{
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+.offcanvas-body ul li a{
+  color: #fff !important;
+}
+
+/*End Offcanvas here */
+
+
+
 .search{
   position: relative;
 }
@@ -156,6 +180,16 @@ header {
   color: var(--primary_color);
   font-weight: 600;
 }
+.nav li:hover{
+  background-color: var(--hover-icons);
+   transition: all 0.6s;
+  
+
+}
+.nav ul  li:hover .link{
+  color: #fff;
+}
+
 
 @media (max-width: 1199.98px) {
   .nav {
@@ -394,6 +428,13 @@ header {
   color: #db5c6e !important;
   cursor: pointer;
 }
+
+
+
+
+
+
+
 /**/
 /* End  Products Section  */
 
@@ -459,7 +500,7 @@ footer {
   text-align: center;
 }
 
-ul li {
+footer ul li {
   padding: 7px 0;
 }
 /* End Footer Section */
