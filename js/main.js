@@ -269,22 +269,22 @@ var s7 = new Swiper(".s7", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
-    },
-    520: {
       slidesPerView: 2,
     },
-    768: {
+    520: {
       slidesPerView: 3,
     },
-    1000: {
+    768: {
       slidesPerView: 4,
     },
-    1200: {
+    1000: {
       slidesPerView: 5,
     },
     1200: {
       slidesPerView: 6,
+    },
+    1300: {
+      slidesPerView: 7,
     },
   },
 });
@@ -309,7 +309,7 @@ var s8 = new Swiper(".s8", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     520: {
       slidesPerView: 2,
@@ -318,7 +318,7 @@ var s8 = new Swiper(".s8", {
       slidesPerView: 3,
     },
     1000: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
     1200: {
       slidesPerView: 4,
@@ -347,12 +347,17 @@ var swipperCategories = new Swiper(".swipperCategories", {
     prevEl: ".swiper-button-prev8",
   },
 
+
+
   breakpoints: {
     0: {
+      slidesPerView: 1,
+    },
+    300: {
       slidesPerView: 2,
     },
     520: {
-      slidesPerView: 2,
+      slidesPerView: 3,
     },
     600: {
       slidesPerView: 3,

@@ -213,15 +213,21 @@ header {
   background-color: var(--secondary_color);
 }
 
+
+
+
 .categories .content img {
   width: 150px;
   height: 150px;
   object-fit: cover;
 }
 
-.categories .content h4 {
-  color: var(--primary_color);
-  font-weight: 600;
+@media (max-width: 600px) {
+  .categories .content img {
+  width: 100px;
+  height: 100px;
+ 
+}
 }
 
 .categories .content .col:hover {
@@ -452,11 +458,17 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
 }
+
+
+
+
+
 .discount .col-test {
   position: relative;
 }
-.discount .col-test::before {
+.discount .content::before {
   content: url("../imgs/shape1.png");
   position: absolute;
   top: 75%;
@@ -466,7 +478,27 @@ header {
   content: url("../imgs/shape2.png");
   position: absolute;
   top: 20%;
-  left: 23%;
+  left: 2.5rem;
+}
+
+@media (max-width: 600px) {
+.discount .col-test .content {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  
+}
+
+.discount .content::before{
+scale: 0.6;
+left: 40%;
+}
+
+.discount .content::after{
+scale: 0.6;
+left: 10%;
+}
+ 
 }
 
 /* End Discount Section */
